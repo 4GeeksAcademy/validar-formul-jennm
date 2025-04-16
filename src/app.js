@@ -18,6 +18,7 @@ window.onload = function() {
   const messageInput = document.getElementById("comment");
   const sendBtn = document.querySelector(".btn-primary");
 
+
   sendBtn.addEventListener("click", function (event) {
     event.preventDefault();
 
